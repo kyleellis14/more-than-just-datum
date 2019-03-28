@@ -2,42 +2,62 @@ html {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-.logo {
-  max-width: 200px;
-}
-
-.search {
-  background-image: url("../images/search.svg");
-  background-position: left;
-  background-size: 20px;
-  background-color: #fff;
-}
-
-input:not([type="checkbox"]),
-input:not([type="radio"]) {
-  padding-left: 1rem;
-}
-
 header {
   background-color: #ddd;
 }
 
-.medium-grey {
+.logo {
+  max-width: 200px;
+}
+
+.nearest {
   background-color: #efefef;
 }
 
-.white {
+.playgrounds {
   background-color: #fff;
 }
 
-table {
-  min-width: 50em;
+.mover {
+  left: .25em;
+}
+
+.id {
+  width: 5.5em;
+}
+
+.type {
+  width: 5.5em;
+}
+
+.group {
+  width: 5.8em;
+}
+
+.swings {
+  width: 5.5em;
+}
+
+.slides {
+  width: 5.5em;
+}
+
+.seesaws {
+  width: 5.5em;
+}
+
+.sandboxes {
+  width: 5.5em;
+}
+
+.playhouses {
+  width: 5.5em;
 }
 
 @media only screen and (min-width: 60em) {
 
   .table-wrapper {
-    overflow: visible
+    overflow: visible;
   }
 
 }
